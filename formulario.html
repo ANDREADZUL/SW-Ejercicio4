@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device=width, user
+    scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Formularios</title>
+</head>
+<body>
+  <section>
+    
+    
+    <form name="formulario" method="get" action="procesar.php">
+        
+      
+      <h2>Crea una cuenta</h2>
+
+        <p>
+            <form action="#" autocomplete="on">
+            <label for="nombres" class="form-label">Nombres</label>
+            <input type="text" name="nombre" placeholder="Escriba sus nombres" autocomplete="on">
+            
+        </p>
+        <p>
+            <label for="apellidos" class="form-label">Apellidos</label>
+            <input type="text" name="apellidos" placeholder="Escriba sus apellidos" autocomplete="off">
+            
+        </p>
+        <p>
+            <label for="edad" class="form-label">Edad</label>
+            <input type="number" name="edad" placeholder="edad" autofocus="autofocus"/>
+        </p> 
+        <p>
+            <label for="correo" class="form-label">Corre electrónico</label>
+            <input type="text" name="correo" placeholder="Escriba su correo electronico">
+        </p>
+        <p>Contraseña: <input type="password" name="password" minlength="6" placeholder="máximo 8 caracteres"></p>
+        
+        <p> 
+            
+           <label for="teléfono" class="form-label">Teléfono</label>
+            <input type="tel" name="telefono"  placeholder="Escriba su número" maxlength="10" >
+        </p>
+        
+        <p>Profesión
+          <select name="menu" pattern="elije una de las opciones">
+            <option>Elige uno</option>
+            <option>Maestro</option>
+            <option>Alumno</option>
+          </select>
+        </p>
+        
+        <p>Genero <input type="radio" name="hm" value="h" required> Hombre
+           <input type="radio" name="hm" value="m"> Mujer
+        </p>
+      
+        
+        <p><input type="submit" value="Enviar" id="boton"></p>
+    
+    </form>
+
+  </section>
+
+</body>
+</html>

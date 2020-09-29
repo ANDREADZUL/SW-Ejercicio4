@@ -1,0 +1,33 @@
+body{
+    background-color: #D1EEEA;
+    background-size: 100vm 100vh;
+    margin: 0;
+    font-family: monospace;
+    
+}
+form{
+    width: 500px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 30px 50px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+h2{
+    color: #fff;
+    text-align: center;
+    margin:0;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+
+
+#boton{
+    background: white;
+    color: black;
+    padding: 5px;
+
+}
